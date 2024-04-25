@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Body */
+
+body {
+    background-color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Header */
+
+.logo {
+    width: 150px;
+}
+/* Main */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #361112;
+    margin: 20px;
+}
+
+/* Productos */
+
+.imgProductos {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.contenedorProductos p {
+    background-color: #ddb8c2;
+    color: #361112;
+    text-align: center;
+    padding: 10px;
+    width: 280px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
