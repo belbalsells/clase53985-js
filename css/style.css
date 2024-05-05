@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,12 @@ body {
 .logo {
     width: 150px;
 }
+
+.card-title,
+p {
+    color: #361112;
+}
+
 /* Main */
 
 main {
@@ -30,22 +37,54 @@ h1 {
     margin: 20px;
 }
 
+h2 {
+    text-align: left;
+    color: #361112;
+  }
+
+h3 {
+    text-align:left;
+    color: #361112;
+    margin: 20px;
+}
+
 /* Productos */
 
-.imgProductos {
-    display: block;
-    width: 300px;
-    height: auto;
+.noBorder {
+    border: none;
 }
 
-.contenedorProductos p {
-    background-color: #ddb8c2;
-    color: #361112;
-    text-align: center;
-    padding: 10px;
-    width: 280px;
-    font-size: 18px;
+.btnCarrito {
+    background-color: #c35c5f;
+    color: #F9F1F3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Alegreya Sans", sans-serif;
+    cursor: pointer;
+}
+
+.btnCarrito:hover {
+    background-color: #c97a7d;
+}
+
+.btnCompra {
+    background-color: #97191D;
+    color: #F9F1F3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width:150px;
+    font-size: 16px;
+    font-family: "Alegreya Sans", sans-serif;
+    cursor: pointer;
+}
+
+.btnCompra:hover {
+    background-color: #c97a7d;
+}
+
+.precio {
     font-weight: bold;
-    text-transform: uppercase;
 }
-

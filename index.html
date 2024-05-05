@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Curso Javascript</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -18,27 +24,66 @@
 
         <h1>Productos</h1>
 
-        <div class="contenedorProductos">
-            <img class="imgProductos" src="img/alfajores.jpg" alt="Foto alfajores">
-            <p> Alfajores </p>
+        <div class="row">
+            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
+                <img src="img/rogel.jpeg" class="card-img-top" alt="Rogel">
+                <div class="card-body">
+                    <h2 class="card-title">Rogel</h2>
+                    <p class="card-text">Miles de capas crocantes con mucho dulce de leche y merengue por encima.
+                    </p>
+                    <p class="precio"> $1.800 </p>
+                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(1)">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
+                <img src="img/cheesecake.jpeg" class="card-img-top" alt="Cheesecake">
+                <div class="card-body">
+                    <h2 class="card-title">Cheesecake</h2>
+                    <p class="card-text">Base crocante, relleno a base de queso crema y frutos frescos como topping.
+                    </p>
+                    <p class="precio"> $2.500 </p>
+                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(2)">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
+                <img src="img/keylimepie.jpeg" class="card-img-top" alt="Key Lime Pie">
+                <div class="card-body">
+                    <h2 class="card-title">Key Lime Pie</h2>
+                    <p class="card-text">Base de masa sablee, relleno de leche condensada y lima, decorada con
+                        crema.</p>
+                    <p class="precio"> $2.100 </p>
+                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(3)">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
+                <img src="img/tortamousse.png" class="card-img-top" alt="Torta Mousse">
+                <div class="card-body">
+                    <h2 class="card-title">Torta Mousse</h2>
+                    <p class="card-text">Base crocante, relleno de mousse de chocolate y ganache de chocolate
+                        encima.</p>
+                    <p class="precio"> $2.300 </p>
+                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(4)">Añadir al carrito</button>
+                </div>
+            </div>
         </div>
 
-        <div class="contenedorProductos">
-            <img class="imgProductos" src="img/cheesecake.jpeg" alt="Foto cheesecake">
-            <p> Cheesecake </p>
+        <div class="row">
+            <h3>Total de la compra
+                <span>$ </span>
+                <span id="total">0</span>
+            </h3>
         </div>
 
-        <div class="contenedorProductos">
-            <img class="imgProductos" src="img/tortamousse.png" alt="Foto torta mousse">
-            <p> Torta Mousse </p>
+        <div class="row">
+            <button class="btn btnCompra" onclick="finalizarCompra()">Finalizar Compra</button>
         </div>
 
-        <div class="contenedorProductos">
-            <img class="imgProductos" src="img/cookie.png" alt="Foto cookie">
-            <p> Cookies </p>
-        </div>
+    </main>
 
-        <script src="js/miarchivo.js"></script>
+    <script src="js/miarchivo.js"></script>
 </body>
 
 </html>
