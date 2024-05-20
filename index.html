@@ -14,60 +14,31 @@
 </head>
 
 <body>
-    <header>
-        <a href="">
-            <img class="logo" src="img/pragalogo.png" alt="Logo de Praga Cakes">
-        </a>
+    <header class="navbar navbar-expand-lg encabezado">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="imgLogo" src="img/pragalogo.png" alt="Logo Praga"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav menuNav">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="">Productos</a>
+                    <a class="nav-link" href="">Sucursales</a>
+                    <a class="nav-link" href="">Nosotros</a>
+                    <a class="nav-link" href="">Contacto</a>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
 
         <h1>Productos</h1>
 
-        <div class="row">
-            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
-                <img src="img/rogel.jpeg" class="card-img-top" alt="Rogel">
-                <div class="card-body">
-                    <h2 class="card-title">Rogel</h2>
-                    <p class="card-text">Miles de capas crocantes con mucho dulce de leche y merengue por encima.
-                    </p>
-                    <p class="precio"> $1.800 </p>
-                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(1)">Añadir al carrito</button>
-                </div>
-            </div>
-
-            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
-                <img src="img/cheesecake.jpeg" class="card-img-top" alt="Cheesecake">
-                <div class="card-body">
-                    <h2 class="card-title">Cheesecake</h2>
-                    <p class="card-text">Base crocante, relleno a base de queso crema y frutos frescos como topping.
-                    </p>
-                    <p class="precio"> $2.500 </p>
-                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(2)">Añadir al carrito</button>
-                </div>
-            </div>
-
-            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
-                <img src="img/keylimepie.jpeg" class="card-img-top" alt="Key Lime Pie">
-                <div class="card-body">
-                    <h2 class="card-title">Key Lime Pie</h2>
-                    <p class="card-text">Base de masa sablee, relleno de leche condensada y lima, decorada con
-                        crema.</p>
-                    <p class="precio"> $2.100 </p>
-                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(3)">Añadir al carrito</button>
-                </div>
-            </div>
-
-            <div class="card col-xl-3 col-md-6 col-sm-12 noBorder">
-                <img src="img/tortamousse.png" class="card-img-top" alt="Torta Mousse">
-                <div class="card-body">
-                    <h2 class="card-title">Torta Mousse</h2>
-                    <p class="card-text">Base crocante, relleno de mousse de chocolate y ganache de chocolate
-                        encima.</p>
-                    <p class="precio"> $2.300 </p>
-                    <button class="btn btnCarrito" onclick="agregarProductoCarrito(4)">Añadir al carrito</button>
-                </div>
-            </div>
+        <div class="row" id="lista-productos">
+       
         </div>
 
         <div class="row">
@@ -83,6 +54,11 @@
 
     </main>
 
+    <footer>
+        <h4 class="copy">Copyright © 2023 Praga Cakes</h4>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/miarchivo.js"></script>
 </body>
 

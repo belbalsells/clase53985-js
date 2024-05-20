@@ -1,0 +1,11 @@
+[
+  { "id": 1, "nombre": "Rogel", "precio": 1800, "descripcion": "Miles de capas crocantes con mucho dulce de leche y merengue por encima.", "imagenUrl": "img/rogel.jpeg"},
+  { "id": 2, "nombre": "Cheesecake", "precio": 2500, "descripcion": "Base crocante, relleno a base de queso crema y frutos frescos como topping.", "imagenUrl": "img/cheesecake.jpeg" },
+  { "id": 3, "nombre": "Key Lime Pie", "precio": 2100, "descripcion": "Base de masa sablee, relleno de leche condensada y lima, decorada con crema.", "imagenUrl": "img/keylimepie.jpeg" },
+  { "id": 4, "nombre": "Torta Mousse", "precio": 2300, "descripcion": "Base crocante, relleno de mousse de chocolate y ganache de chocolate encima.", "imagenUrl": "img/tortamousse.png" },
+  { "id": 5, "nombre": "Alfajores", "precio": 1000, "descripcion": "Mix alfajores de Pistacho, Pistacho y Frambuesa, Dulce de Leche con Nuez y Chocolate con Avellanas.", "imagenUrl": "img/alfajores.jpg"},
+  { "id": 6, "nombre": "Torta Balcarce", "precio": 2000, "descripcion": "Biscocho húmedo, crema, castañas en almibar, nueces, dulce de leche y merengue, espolvoreado con azúcar impalpable.", "imagenUrl": "img/balcarce.png" },
+  { "id": 7, "nombre": "Cookies Rellenas", "precio": 1000, "descripcion": "Mix de cookies rellenas, sabor Marroc, Limón y Arándanos, Kinder, Red Velvet y Chocolate y Avellanas.", "imagenUrl": "img/cookies.png" },
+  { "id": 8, "nombre": "Torta Fratacho", "precio": 2800, "descripcion": "Brownie de pistacho y chocolate blanco, ganache de pistacho, crema y dulce de frambuesa, fruta y garrapiñada de pistacho.", "imagenUrl": "img/fratacho.jpeg" }
+]
+

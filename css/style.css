@@ -14,16 +14,20 @@ body {
 }
 
 /* Header */
-
-.logo {
-    width: 150px;
-}
-
-.card-title,
-p {
+.imgLogo {
+    width: 100px;
+  }
+  
+  .encabezado {
+    background-color: #ffffff;
+    border-bottom: #361112 1px solid;
+  }
+  
+  .menuNav a {
+    text-transform: uppercase;
     color: #361112;
-}
-
+  }
+  
 /* Main */
 
 main {
@@ -46,6 +50,12 @@ h3 {
     text-align:left;
     color: #361112;
     margin: 20px;
+    padding: 20px;
+}
+
+.card-title,
+p {
+    color: #361112;
 }
 
 /* Productos */
@@ -88,3 +98,15 @@ h3 {
 .precio {
     font-weight: bold;
 }
+
+/* Footer */
+footer {
+    margin: 10px;
+    padding: 20px;
+    border-top: 1px solid #361112;
+  }
+
+  .copy {
+    font-size: small;
+    text-align: center;
+  }
